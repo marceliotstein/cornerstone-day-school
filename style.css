@@ -1,0 +1,87 @@
+/*
+Theme Name: Educator Child
+Theme URI: http://educator.edge-themes.com
+Description: A child theme of Educator Theme
+Author: Edge Themes
+Author URI: http://themeforest.net/user/edge-themes
+Version: 1.0.1
+Text Domain: educator
+Template: educator
+*/
+
+.edgt-top-bar .edgt-position-right {
+  padding-top: 10px;
+}
+
+.feature-placeholder {
+  background-color: #6a1242;
+  color: #ffffff;
+  padding: 30px;
+  font-family: "Abril Fatface";
+  font-size: 2rem;
+}
+
+
+.edgt-top-bar .edgt-grid .edgt-vertical-align-containers, .edgt-top-bar-in-grid-padding .edgt-top-bar .edgt-grid .edgt-vertical-align-containers {
+  padding: 0px 0px 0px 0px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -170px;
+  visibility: hidden;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.edgt-position-right-inner {
+  color: #ffffff;
+}
+
+.edgt-page-header .edgt-vertical-align-containers {
+  padding: 0px 0px 0px 0px; 
+}
+
+@media (min-width: 1024px) {
+  .home .edgt-slider {
+    margin-top: 116px;
+  }
+
+  .edgt-page-header .edgt-fixed-wrapper.fixed {
+    background-color: #ffffff;
+  }
+}
+
+.cds-footer-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 2.5em;
+  color: white;
+  padding-bottom: 12px;
+}
+
+.cds-footer {
+  color: white;
+  text-align: center;
+}
+
+.edgt-full-width { 
+  padding: 0px 15px 0px 15px;
+}
+
+@media (min-width: 1024px) {
+  .edgt-full-width { 
+    padding: 0px 100px 0px 100px;
+  }
+
+  .cds-footer {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}

@@ -1,0 +1,286 @@
+/*
+Theme Name: Educator Child
+Description: Custom theme for Cornerstone Day School
+Author: Marc Eliot Stein
+Author URI: https://marceliotstein.com   
+Version: 1.0.1
+Text Domain: educator
+Template: educator
+*/
+
+@media only screen and (max-width: 1024px) {
+  .edgt-page-header {
+    display: block;
+  }
+   
+  .edgt-position-center {
+    display: none;
+  }
+}
+
+.edgt-position-left {
+  display: none;
+}
+
+.edgt-position-center-inner {
+  position: absolute;
+  right: 0;
+}
+
+.edgt-main-menu ul li a {
+  padding: 0 10px !important;
+}
+
+.edgt-position-center {
+  bottom: -25px;
+}
+
+.edgt-vertical-align-containers .edgt-position-center {
+  z-index: 1000;
+}
+
+.edgt-position-right {
+  float: left !important;
+  width: 100%;
+}
+
+.edgt-position-right-inner img {
+  height: 65px !important;
+}
+  
+.edgt-search-icon-text {
+  display: none !important;
+}  
+
+.edgt-page-header .edgt-vertical-align-containers {
+  padding: 0px 0px 0px 0px !important;
+}
+
+.edgt-vertical-align-containers .edgt-position-right-inner {
+  float: left !important;
+}
+
+.edgt-light-header .edgt-page-header div:not(.edgt-sticky-header):not(.fixed) .edgt-search-opener {
+  color: #7b7c7e !important;
+}
+
+.edgt-search-opener {
+  position: absolute !important;
+  right: 0 !important;
+  top: 15px !important;
+  font-size: 1.6rem !important;
+}
+
+.edgt-search-cover .edgt-form-holder-outer {
+  width: 20%;
+}
+
+.edgt-search-cover .edgt-form-holder-outer {
+  border-color: #7b7c7e;
+  border-width: 1px;
+  border-style: solid;
+}
+
+h2 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 2rem !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+}
+
+.edgt-container-inner {
+  width: 90% !important;
+}
+
+.edgt-title-holder {
+  width: 60% !important;
+  margin-left: 36% !important;
+  margin-right: 4% !important;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-color: #800020;
+  margin-top: 20px;
+}
+
+.edgt-title-holder.edgt-centered-type .edgt-title-inner,
+.edgt-title-holder .edgt-title-wrapper .edgt-page-title {
+  text-align: left !important;
+}
+
+.edgt-sidebar-holder {
+  transform: translateY(-178px);
+}
+
+.edgt-mobile-header {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.edgt-mobile-header .edgt-mobile-header-inner {
+  height: 50px;
+  border-bottom-width: 0px;
+}
+
+.edgt-mobile-header .edgt-mobile-menu-opener a {
+  font-size: 50px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .edgt-grid {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgt-grid {
+    width: 100% !important;
+  }
+}
+
+/*
+.edgt-top-bar .widget {
+  margin-top: 20px !important;
+}
+*/
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.edgt-page-footer .edgt-footer-top-holder {
+  background-color: #800020 !important;
+}
+
+.widget.widget_search .input-holder {
+  border-color: #000000 !important;
+}
+
+.cds-footer-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 2.5em;
+  color: white;
+  padding-bottom: 12px;
+}
+
+.cds-footer {
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+  text-align: center;
+}
+
+.edgt-grid-row p {
+  font-size: 18px !important;
+}
+
+.edgt-grid-row .edgt-sidebar-holder.edgt-sidebar-left {
+  border-right-width: 0px !important;
+}
+
+.cds-faq {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #228b22;
+  color: white;
+  font-family: "Abril Fatface", serif;
+  font-size: 1.5em;
+  padding: 30px;
+  text-align: center;
+}
+
+.cds-publications {
+  color: #228b22;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #228b22;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.cds-publications-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 1.5em;
+  color: #228b22;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #228b22;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.cds-headline {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.1em;
+  line-height: 1.2em;
+  color: #228b22;
+}
+
+.cds-exp-title {
+  font-family: "Abril Fatface", serif;
+  font-size: 2em;
+  color: #800020;
+  text-align: center;
+}
+
+.cds-exp-sub {
+  font-family: "Abril Fatface", serif;
+  font-size: 1.5em;
+  color: #800020;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.cds-exp-box {
+  margin: 10px 0px 0px 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #800020;
+  text-align: center;
+}
+
+.cds-exp-box-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3em;
+  padding: 12px;
+  text-align: center;
+}
+
+/*
+.edgt-top-bar {
+  background-image: url("/wp-content/themes/educator-child/images/cornerstone-logo90.png");
+  background-repeat: no-repeat;
+  height: 90px !important;
+  border-bottom-width: 0px !important;
+}
+*/
+
+.edgt-main-menu ul,
+.edgt-main-menu ul li a {
+  color: #800020 !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .edgt-main-menu ul,
+  .edgt-main-menu ul li a {
+    font-size: 18px !important;
+  }
+}
+
+/*
+@media only screen and (min-width: 1100px) {
+  .edgt-main-menu ul,
+  .edgt-main-menu ul li a {
+    font-size: 18px !important;
+  }
+}
+*/
+  
