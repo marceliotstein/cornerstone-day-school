@@ -9,8 +9,129 @@ Text Domain: educator
 Template: educator
 */
 
+.cds-front-features {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+  font-family: "Abril Fatface";
+  font-size: 2rem;
+  background-color: #228b22;
+  color: white;
+}
+
+
+.cds-front-feature {
+  width: 200px;
+  margin: 0px 20px 0px 20px;
+  background-color: #800020;
+  color: white;
+}
+
+.menu-item {
+  text-align: right;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.edgt-page-content-holder {
+  font-size: 1.1em;
+  padding-left: 50px; 
+  padding-right: 50px; 
+}
+
+@media (min-width: 1024px) {
+  .edgt-page-content-holder {
+    padding-left: 20px; 
+    padding-right: 20px; 
+  }
+}
+  
+.edgt-mobile-header .edgt-mobile-menu-opener a {
+  color: #6a1242;
+  font-size: 42px;
+}
+  
+.edgt-page-header {
+  padding: 6px;
+}
+
+.edgt-main-menu ul li a {
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  .edgt-main-menu ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1190px) {
+  .edgt-main-menu ul li a {
+    font-size: 14px;
+    padding: 0px 7px 0px 7px;
+  }
+}
+
+.cds-narrowview {
+  display: block;
+}
+
+.cds-wideview {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .cds-narrowview {
+    display: none;
+  }
+
+  .cds-wideview {
+    display: block;
+  }
+}
+
+.cds-seal-narrow-wrapper {
+  text-align: center;
+}
+
+.cds-seal-front {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+}
+
+@media (min-width: 1024px) {
+  .cds-seal-front {
+    width: 300px;
+    padding: 5px 25px 5px 5px;
+  }
+}
+
+.cds-slogan-narrow {
+  text-align: center;
+  background-color: #6a1242;
+  color: white;
+  font-size: 32px;
+  line-height: 1.1em;
+  padding: 10px 30px 20px 30px;
+  margin: 0px 30px 1px 30px;
+}
+
+.edgt-top-bar {
+  font-size: 20px;
+}
+
 .edgt-top-bar .edgt-position-right {
-  padding-top: 10px;
+  padding-top: 7px;
+}
+
+.edgt-top-bar .edgt-vertical-align-containers .edgt-position-left {
+  display: none;
+}
+
+.edgt-top-bar .edgt-vertical-align-containers .edgt-position-right {
+  float: none;
+  text-align: center;
 }
 
 .feature-placeholder {
@@ -20,7 +141,6 @@ Template: educator
   font-family: "Abril Fatface";
   font-size: 2rem;
 }
-
 
 .edgt-top-bar .edgt-grid .edgt-vertical-align-containers, .edgt-top-bar-in-grid-padding .edgt-top-bar .edgt-grid .edgt-vertical-align-containers {
   padding: 0px 0px 0px 0px;
