@@ -9,33 +9,35 @@ Text Domain: educator
 Template: educator
 */
 
-/*color: #228b22;*/
-
-.cds-front-exp {
+.cds-front-exp-narrow {
   text-align: center;
+  margin: 60px auto 50px auto;
+}
+
+.cds-front-exp-wide {
+  text-align: center;
+  margin: 0px;
 }
 
 #experience-cycle,
 #experience-cycle2 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #808184;
   width: 450px;
   height: 300px;
   margin: 0 auto;
 }
 
-.cds-front-feature-narrow,
-.cds-front-feature-wide1,
-.cds-front-feature-wide2,
-.cds-front-feature-wide3 {
+.cds-front-feature-wide {
   vertical-align: middle;
   margin: 20px 0px 20px 0px;
   font-family: "Tienne";
   font-size: 1.6rem;
-  color: white;
+  color: #000000;
 }
   
-.cds-front-feature-wide1 a,
-.cds-front-feature-wide2 a,
-.cds-front-feature-wide3 a,
+.cds-front-feature-wide a,
 .cds-front-feature a {
   color: white;
 }
@@ -107,7 +109,7 @@ Template: educator
 
 .cds-seal-narrow-wrapper {
   text-align: center;
-}
+} 
 
 .cds-seal-front {
   margin: 0 auto;
@@ -126,10 +128,167 @@ Template: educator
   text-align: center;
   background-color: #6a1242;
   color: white;
-  font-size: 32px;
+  font-family: Tienne;
+  font-size: 30px;
   line-height: 1.1em;
-  padding: 10px 30px 20px 30px;
-  margin: 0px 30px 1px 30px;
+  padding: 20px 30px 20px 30px;
+  margin: 0px;
+}
+
+.cds-quotes-box-narrow {
+  background-color: #808184;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  font-family: Tienne;
+  font-size: 30px;
+  text-align: center;
+  width: 450px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 50px auto 20px auto;
+}
+
+.cds-quotes-box-wide {
+  background-color: #808184;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  font-family: Tienne;
+  font-size: 30px;
+  text-align: center;
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px auto 20px auto;
+}
+
+.cds-quotes-box-narrow a,
+.cds-quotes-box-wide a {
+  color: white;
+}
+
+.cds-faq-box-narrow {
+  background-color: #bbbcbe;
+  color: #808184;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #808184;
+  font-family: Tienne;
+  font-size: 30px;
+  text-align: center;
+  width: 450px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px auto 30px auto;
+}
+
+.cds-faq-box-wide {
+  background-color: #bbbcbe;
+  color: #808184;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #808184;
+  font-family: Tienne;
+  font-size: 30px;
+  text-align: center;
+  width: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px auto 30px auto;
+}
+
+.cds-pubs-title-narrow {
+  font-family: Tienne;
+  font-weight: bold;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+  
+.cds-pubs-box-narrow {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  text-align: center;
+  width: 450px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  margin: 0px auto 40px auto;
+}
+
+.cds-front-feature-table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cds-front-feature-table, 
+.cds-front-feature-table tr,
+.cds-front-feature-table td {
+  border: none;
+}
+
+.cds-pubs-wide {
+  vertical-align: top;
+  text-align: center;
+  width: 150px;
+}
+
+.cds-front-faq-quotes-wide {
+  vertical-align: top;
+  text-align: center;
+  width: 150px;
+}
+
+.cds-pubs-title-wide {
+  font-family: Tienne;
+  font-weight: bold;
+  color: #000000;
+  font-size: 15px;
+  width: 150px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+  
+.cds-pubs-box-wide {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  text-align: center;
+  width: 150px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px auto 40px auto;
+}
+
+.cds-pubs-box-wide img {
+  width: 150px;
+}
+
+.cds-quotes-wide-box {
+  width: 100px;
+  background-color: #808184;
+  color: white; 
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbbcbe;
+  font-family: Tienne;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cds-faq-wide-box {
+  width: 100px;
+  background-color: #bbbcbe;
+  color: white; 
+  font-family: Tienne;
+  font-size: 30px;
+  text-align: center;
+  min-height: 150px;
 }
 
 .edgt-top-bar {
