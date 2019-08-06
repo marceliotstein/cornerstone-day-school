@@ -15,7 +15,7 @@ Template: educator
 }
 
 .cds-front-exp-wide {
-  text-align: center;
+  width: 450px;
   margin: 0px;
 }
 
@@ -159,7 +159,7 @@ Template: educator
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  width: 150px;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0px auto 20px auto;
@@ -194,7 +194,7 @@ Template: educator
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  width: 150px;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 20px auto 30px auto;
@@ -235,13 +235,11 @@ Template: educator
 .cds-pubs-wide {
   vertical-align: top;
   text-align: center;
-  width: 150px;
 }
 
 .cds-front-faq-quotes-wide {
   vertical-align: top;
   text-align: center;
-  width: 150px;
 }
 
 .cds-pubs-title-wide {
@@ -249,7 +247,6 @@ Template: educator
   font-weight: bold;
   color: #000000;
   font-size: 15px;
-  width: 150px;
   text-align: center;
   padding-bottom: 5px;
 }
@@ -259,36 +256,39 @@ Template: educator
   border-style: solid;
   border-color: #000000;
   text-align: center;
-  width: 150px;
   padding-top: 0px;
   padding-bottom: 0px;
   margin: 0px auto 40px auto;
+  width: 150px;
 }
 
 .cds-pubs-box-wide img {
   width: 150px;
 }
 
-.cds-quotes-wide-box {
-  width: 100px;
+.cds-quotes-box-wide {
   background-color: #808184;
   color: white; 
   border-width: 2px;
   border-style: solid;
-  border-color: #bbbcbe;
+  border-color: #000000;
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 24px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
-.cds-faq-wide-box {
-  width: 100px;
+.cds-faq-box-wide {
   background-color: #bbbcbe;
   color: white; 
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  min-height: 150px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-top: 24px;
 }
 
 .edgt-top-bar {
