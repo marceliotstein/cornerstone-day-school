@@ -9,9 +9,20 @@ Text Domain: educator
 Template: educator
 */
 
+@media (max-width: 480px) {
+  .edgt-grid {
+    width: 430px;
+  }
+}
+
 .cds-front-exp-narrow {
   text-align: center;
   margin: 60px auto 50px auto;
+}
+
+.cds-front-exp-narrow #experience-cycle {
+  width: 330px;
+  height: 220px;
 }
 
 .cds-front-exp-wide {
@@ -21,6 +32,7 @@ Template: educator
 
 #experience-cycle,
 #experience-cycle2 {
+  background-size: cover;
   border-width: 2px;
   border-style: solid;
   border-color: #808184;
@@ -144,7 +156,7 @@ Template: educator
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  width: 450px;
+  width: 340px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 50px auto 20px auto;
@@ -179,7 +191,7 @@ Template: educator
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  width: 450px;
+  width: 340px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 20px auto 30px auto;
@@ -215,7 +227,7 @@ Template: educator
   border-style: solid;
   border-color: #000000;
   text-align: center;
-  width: 450px;
+  width: 340px;
   padding-top: 5px;
   padding-bottom: 30px;
   margin: 0px auto 40px auto;
