@@ -11,37 +11,31 @@ Template: educator
 
 /*color: #228b22;*/
 
-.cds-front-features-table {
+.cds-front-exp {
   text-align: center;
-  margin: 20px 0px 20px 0px;
-  padding: 15px 0px 15px 0px;
-  height: 400px;
 }
 
-.cds-front-features-table td {
-  text-align: center;
-  width: 100%;
+#experience-cycle,
+#experience-cycle2 {
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
-  .cds-front-features-table td {
-    width: auto;
-  }
-}
-
-.cds-front-feature {
+.cds-front-feature-narrow,
+.cds-front-feature-wide1,
+.cds-front-feature-wide2,
+.cds-front-feature-wide3 {
   vertical-align: middle;
-  padding: 20px 20px 20px 20px;
+  margin: 20px 0px 20px 0px;
   font-family: "Tienne";
   font-size: 1.6rem;
-  border-color: white;
-  border-width: 10px;
-  border-style: solid;
-  width: 100%;
-  background-color: #800020;
   color: white;
 }
-
+  
+.cds-front-feature-wide1 a,
+.cds-front-feature-wide2 a,
+.cds-front-feature-wide3 a,
 .cds-front-feature a {
   color: white;
 }
