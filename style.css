@@ -32,7 +32,7 @@ Template: educator
 .cds-front-feature {
   vertical-align: middle;
   padding: 20px 20px 20px 20px;
-  font-family: "Abril Fatface";
+  font-family: "Tienne";
   font-size: 1.6rem;
   border-color: white;
   border-width: 10px;
@@ -123,8 +123,8 @@ Template: educator
 
 @media (min-width: 1024px) {
   .cds-seal-front {
-    width: 300px;
-    padding: 5px 25px 5px 5px;
+    width: 250px;
+    padding: 5px 12px 0px 5px;
   }
 }
 
