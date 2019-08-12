@@ -63,8 +63,6 @@ Template: educator
 
 .cds-front-feature-wide {
   vertical-align: middle;
-  margin: 20px 0px 20px 0px;
-  font-family: "Tienne";
   font-size: 1.6rem;
   color: #000000;
 }
@@ -167,6 +165,8 @@ Template: educator
   margin: 0px 0px 30px 0px;
 }
 
+.cds-blankline,
+.cds-pubstitle, 
 .cds-learnmore {
   padding: 0px;
   font-family: "Abril Fatface";
@@ -228,12 +228,16 @@ Template: educator
   border-width: 2px;
   border-style: solid;
   border-color: #808184;
-  font-family: Tienne;
-  font-size: 30px;
   text-align: center;
   color: white; 
-  padding: 55px 25px 55px 25px;
-  margin: 108px 40px 0px 40px;
+  width: 450px;
+  height: 300px;  
+}
+
+.cds-faq-text-wide {
+  font-family: Tienne;
+  font-size: 50px;
+  margin-top: 136px;
 }
 
 .cds-pubs-title-narrow {
@@ -262,15 +266,6 @@ Template: educator
   text-align: center;
 }
 
-.cds-pubs-title-wide {
-  font-family: Tienne;
-  font-weight: bold;
-  color: #000000;
-  font-size: 15px;
-  text-align: center;
-  padding-bottom: 5px;
-}
-  
 .cds-pubs-box-wide {
   vertical-align: middle;
   text-align: center;
