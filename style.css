@@ -15,6 +15,49 @@ Template: educator
   }
 }
 
+.widget.widget_search .input-holder {
+  border-color: #000000;
+}
+
+.edgt-grid-row .edgt-sidebar-holder.edgt-sidebar-left {
+  border-right: 2px solid #6a1242;
+}
+
+.cds-side-index {
+  padding-bottom: 30px;
+}
+
+.cds-side-title {
+  width: 100%;
+  font-family: "Tienne", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #6a1242;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.cds-side-anchor,   
+.cds-side-anchor a {
+  color: black;  
+  font-family: "Tienne", serif;
+  font-weight: 500;
+}
+
+.edgt-page-title {
+  font-family: "Tienne", serif;
+  font-weight: 100;
+  font-size: 3.5em;
+  color: #808184;
+  background-color: #ffffff;
+  padding: 5px 0px 18px 26px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
 .cds-front-exp-narrow {
   text-align: center;
   margin: 60px auto 50px auto;
