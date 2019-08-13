@@ -9,6 +9,16 @@ Text Domain: educator
 Template: educator
 */
 
+blockquote:before {
+  color: #bbbcbe;
+}
+  
+.wp-block-quote p {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #bbbcbe;
+}
+
 @media (max-width: 480px) {
   .edgt-grid {
     width: 430px;
@@ -340,6 +350,20 @@ Template: educator
   text-align: center;
 }
 
+.cds-parent-quote {
+  padding-bottom: 24px;
+}
+
+.edgt-page-footer {
+  margin-top: 40px;
+}
+
+.cds-parent-quote {
+  font-family: "Roboto Condensed";
+  color: black;
+}
+
+.cds-sidebar-feature,
 .feature-placeholder {
   background-color: #6a1242;
   color: #ffffff;
@@ -360,8 +384,8 @@ a.anchor {
 }
 
 h2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
   font-size: 2rem;
   font-style: normal;
 }
