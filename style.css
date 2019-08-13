@@ -9,6 +9,16 @@ Text Domain: educator
 Template: educator
 */
 
+.edgt-sidebar {
+  padding-top: 30px;
+}
+
+@media (min-width: 1024px) {
+  .edgt-sidebar {
+    padding-top: 0px;
+  }
+}
+  
 .edgt-menu-area {
   height: 80px !important;
 }
@@ -228,7 +238,7 @@ blockquote:before {
 
 .cds-seal-front {
   margin: 0 auto;
-  width: 500px;
+  width: 400px;
   padding: 10px;
 }
 
