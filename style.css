@@ -47,10 +47,14 @@ blockquote:before {
   border-right: 0px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .edgt-grid-row .edgt-sidebar-holder.edgt-sidebar-left {
     border-right: 2px solid #6a1242;
   }
+}
+
+.edgt-title-holder.edgt-standard-type .edgt-page-title {
+  text-align: center;
 }
 
 .cds-side-index {
@@ -439,6 +443,10 @@ h2 {
 
 .edgt-page-header .edgt-vertical-align-containers {
   padding: 0px 0px 0px 0px; 
+}
+
+.page .edgt-content {
+  margin-top: -30px !important;
 }
 
 @media (min-width: 1024px) {
