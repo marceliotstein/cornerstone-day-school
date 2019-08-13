@@ -9,6 +9,15 @@ Text Domain: educator
 Template: educator
 */
 
+.edgt-title-holder,
+.edgt-title-wrapper {
+  padding-top: 20px !important;
+}
+
+.edgt-title-holder {
+  height: 140px !important;
+}
+
 blockquote:before {
   color: #bbbcbe;
 }
@@ -60,12 +69,18 @@ blockquote:before {
 .edgt-page-title {
   font-family: "Tienne", serif;
   font-weight: 100;
-  font-size: 3.5em;
+  font-size: 2.0em;
   color: #808184;
   background-color: #ffffff;
   padding: 5px 0px 18px 26px;
   letter-spacing: .06em;
   text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .edgt-page-title {
+    font-size: 3.5em;
+  }
 }
 
 .cds-front-exp-narrow {
