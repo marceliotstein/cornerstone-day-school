@@ -96,6 +96,8 @@ blockquote:before {
 .cds-front-feature-table {
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 950px;
+  margin: 0 auto;
 }
 
 .cds-front-feature-table, 
@@ -234,8 +236,21 @@ blockquote:before {
 }
 
 .cds-blankline,
-.cds-pubstitle, 
+.cds-questions,
+.cds-virtualtour,
+.cds-publications, 
 .cds-learnmore {
+  vertical-align: bottom;
+  text-align: center;
+  width: 450px;
+  padding: 0px;
+  font-family: "Abril Fatface";
+  font-weight: 500;
+  color: #000000;
+}
+
+.cds-front-feature-title-narrow {
+  text-align: center;
   padding: 0px;
   font-family: "Abril Fatface";
   font-weight: 500;
@@ -251,24 +266,19 @@ blockquote:before {
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  width: 340px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 50px auto 20px auto;
+  margin: 0 auto 40px auto;
+  width: 330px;
+  height: 220px;
 }
 
 .cds-tour-box-wide {
   width: 450px;
-  background-color: #808184;
+  background-color: #bbbcb3;
   color: white; 
   border-width: 2px;
   border-style: solid;
   border-color: #bbbcbe;
-  font-family: Tienne;
-  font-size: 30px;
   text-align: center;
-  padding: 55px 0px 55px 0px;
-  margin: 92px auto 0px auto;   
 }
 
 .cds-tour-box-narrow a,
@@ -285,10 +295,11 @@ blockquote:before {
   font-family: Tienne;
   font-size: 30px;
   text-align: center;
-  width: 340px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 20px auto 30px auto;
+  vertical-align: middle;
+  padding-top: 17px;
+  width: 330px;
+  height: 40px;
+  margin: 0 auto 40px auto;
 }
 
 .cds-faq-box-wide {
@@ -323,10 +334,16 @@ blockquote:before {
   border-style: solid;
   border-color: #000000;
   text-align: center;
-  width: 340px;
-  padding-top: 5px;
-  padding-bottom: 30px;
-  margin: 0px auto 40px auto;
+  width: 330px;
+  height: 220px;
+  margin: 0 auto 40px auto;
+}
+
+.cds-front-exp-td,
+.cds-front-faq-td,
+.cds-front-tour-td,
+.cds-front-pubs-td {
+  width: 450px;
 }
 
 .cds-front-faq-tour-wide {
