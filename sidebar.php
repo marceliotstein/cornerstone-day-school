@@ -35,4 +35,8 @@
     <blockquote class="wp-block-quote cds-parent-quote"><p>After being in partial programs twice and then being on home instruction, finally there is a light at the end of the tunnel. I only wish we had found Cornerstone for our son a couple of years ago.<br />Parent: Freehold, New Jersey</p></blockquote>
     <blockquote class="wp-block-quote cds-parent-quote"><p>My son has been able to establish a meaningful relationship with his teachers for the first time.<br />Parent: Millburn, New Jersey</p></blockquote>
   </div>
+
+  <div class="cds-parent-quotes">
+    <div class="cds-sidebar-feature">Cornerstone Experience, Parents FAQ, Publications</div>
+  </div>
 </aside>

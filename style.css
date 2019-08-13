@@ -9,6 +9,10 @@ Text Domain: educator
 Template: educator
 */
 
+.edgt-menu-area {
+  height: 80px !important;
+}
+
 .edgt-title-holder,
 .edgt-title-wrapper {
   padding-top: 20px !important;
@@ -38,8 +42,15 @@ blockquote:before {
   border-color: #000000;
 }
 
+
 .edgt-grid-row .edgt-sidebar-holder.edgt-sidebar-left {
-  border-right: 2px solid #6a1242;
+  border-right: 0px;
+}
+
+@media (max-width: 1024px) {
+  .edgt-grid-row .edgt-sidebar-holder.edgt-sidebar-left {
+    border-right: 2px solid #6a1242;
+  }
 }
 
 .cds-side-index {
@@ -431,6 +442,14 @@ h2 {
 }
 
 @media (min-width: 1024px) {
+  .page .edgt-content {
+    margin-top: -40px !important;
+  }
+
+  .home .edgt-content {
+    margin-top: -116px !important;
+  }
+
   .home .edgt-slider {
     margin-top: 116px;
   }
