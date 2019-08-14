@@ -53,5 +53,5 @@
             <div class="edgt-content" <?php educator_edge_content_elem_style_attr(); ?>>
                 <div class="edgt-content-inner">
                 <?php if ($current_page=="ACADEMICS") { ?>
-                  <div class="cds-picstrip"><img src="/wp-content/themes/educator-child/images/academics1350.jpg" /></div>
+                  <div class="cds-picstrip"><div class="cds-narrowview"><img src="/wp-content/themes/educator-child/images/academics1.jpg" /></div><div class="cds-wideview"><img src="/wp-content/themes/educator-child/images/academics1350.jpg" /></div></div>
                 <?php } ?>

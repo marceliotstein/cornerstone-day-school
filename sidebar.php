@@ -21,6 +21,16 @@
         <div class="cds-side-anchor">&#9679;&nbsp; <a href="#specialized-services">Specialized Services</a></div>
       </div>
       <?php
+    } else if ($current_page=="ACADEMICS") {
+      ?>
+      <div class="cds-side-index">
+        <div class="cds-side-title">Academics</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#meeting-varied-abilities">Meeting Varied Abilities</a></div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#middle-school"></a>Middle School</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#high-school"></a>High School</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#early-college-and-work-study-programs"></a>Early College and Work Study Programs</div>
+      </div>
+      <?php
     }
   ?>
 

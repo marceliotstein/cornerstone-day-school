@@ -28,7 +28,7 @@ Template: educator
 
 @media (min-width: 1024px) {
   .edgt-sidebar {
-    padding-top: 0px;
+    padding-top: 27px;
   }
 }
   
@@ -37,12 +37,13 @@ Template: educator
 }
 
 .edgt-title-wrapper {
-  padding-top: 20px !important;
+  height: 70px !important;
+  /*padding-top: 20px !important;*/
 }
 
 .edgt-title-holder {
-  height: 140px !important;
-  padding-top: 20px !important;
+  height: 30px !important;
+  padding-top: 0px !important;
 }
 
 blockquote:before {
@@ -107,10 +108,10 @@ blockquote:before {
 .edgt-page-title {
   font-family: "Tienne", serif;
   font-weight: 100;
-  font-size: 2.0em;
+  font-size: 3.0em;
   color: #808184;
   background-color: #ffffff;
-  padding: 5px 0px 18px 26px;
+  padding: 5px 0px 18px 0px;
   letter-spacing: .06em;
   text-transform: uppercase;
 }
@@ -185,6 +186,26 @@ blockquote:before {
     text-align: right;
     margin-right: 0px;
     padding-right: 0px;
+  }
+}
+
+.cds-side-index {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .cds-side-index {
+    display: block;
+  }
+}
+
+.edgt-grid-row .edgt-page-content-holder.edgt-content-right {
+  padding-top: 15px;
+}
+
+@media (min-width: 1024px) {
+  .edgt-grid-row .edgt-page-content-holder.edgt-content-right {
+    padding-top: 27px;
   }
 }
 
