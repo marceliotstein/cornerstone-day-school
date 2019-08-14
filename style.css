@@ -9,6 +9,10 @@ Text Domain: educator
 Template: educator
 */
 
+.cds-picstrip img {
+  width: 100%;
+}
+
 .edgt-logo-wrapper {
   padding-top: 3px !important;
   padding-left: 2px !important;
