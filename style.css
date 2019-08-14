@@ -9,6 +9,20 @@ Text Domain: educator
 Template: educator
 */
 
+table, table tbody tr, table thead tr, tbody, tr, td {
+  color: #000000;
+  border-color: #000000;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000000;
+}
+
+ul, li {
+  color: #000000;
+}
+
+
 .cds-picstrip img {
   width: 100%;
 }
@@ -54,10 +68,17 @@ blockquote:before {
   color: #bbbcbe;
 }
   
-.wp-block-quote p {
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #bbbcbe;
+.cds-block-quote {
+  font-family: "Tienne";
+  font-style: italic;
+  padding-left: 12%;
+  padding-right: 20px;
+  padding-top: 0px; 
+  margin-top: 0px; 
+  text-align: right;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #808184;
 }
 
 @media (max-width: 480px) {
