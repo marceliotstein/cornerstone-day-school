@@ -9,6 +9,8 @@
     $current_page = "HOME";
     if ($current_path=="therapeutic-services") { 
       $current_page = "THERAPEUTIC";
+    } else if ($current_path=="academics") { 
+      $current_page = "ACADEMICS";
     }
 
     if ($current_page=="THERAPEUTIC") {
@@ -30,6 +32,9 @@
     }
   ?>
 
+  <div class="cds-sidebar-pubs">
+    <a href="/publications"><img src="/wp-content/themes/educator-child/images/cds-pubs-vertical.jpg" /></a>
+  </div>
   <div class="cds-parent-quotes">
     <div class="cds-sidebar-feature">Quotes From Parents</div>
     <blockquote class="wp-block-quote cds-parent-quote"><p>After being in partial programs twice and then being on home instruction, finally there is a light at the end of the tunnel. I only wish we had found Cornerstone for our son a couple of years ago.<br />Parent: Freehold, New Jersey</p></blockquote>

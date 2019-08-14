@@ -9,6 +9,19 @@ Text Domain: educator
 Template: educator
 */
 
+.edgt-logo-wrapper {
+  padding-top: 3px !important;
+  padding-left: 2px !important;
+}
+
+.edgt-logo-wrapper a img {
+  max-height: 70px !important;
+}
+
+.cds-sidebar-pubs {
+  padding-bottom: 30px;
+}
+
 .edgt-sidebar {
   padding-top: 30px;
 }
@@ -23,13 +36,13 @@ Template: educator
   height: 80px !important;
 }
 
-.edgt-title-holder,
 .edgt-title-wrapper {
   padding-top: 20px !important;
 }
 
 .edgt-title-holder {
   height: 140px !important;
+  padding-top: 20px !important;
 }
 
 blockquote:before {
@@ -193,10 +206,6 @@ blockquote:before {
   font-size: 42px;
 }
   
-.edgt-page-header {
-  padding: 6px;
-}
-
 .edgt-main-menu ul li a {
   font-size: 14px;
 }

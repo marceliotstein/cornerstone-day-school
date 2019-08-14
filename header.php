@@ -10,7 +10,21 @@
      */
     do_action('educator_edge_header_meta');
 
-    wp_head(); ?>
+    // determine current page
+    global $wp;
+    $current_url = home_url(add_query_arg(array(), $wp->request));
+    $current_path = str_replace("http://cornerstone2.marceliotstein.net/","",$current_url);
+    $current_path = str_replace("http://cornerstone2.marceliotstein.net","",$current_path);
+
+    $current_page = "HOME";
+    if ($current_path=="therapeutic-services") { 
+      $current_page = "THERAPEUTIC";
+    } else if ($current_path=="academics") { 
+      $current_page = "ACADEMICS";
+    }
+
+    wp_head(); 
+    ?>
     <link rel="stylesheet" id="educator-edge-child-style-css" href="http://cornerstone2.marceliotstein.net/wp-content/themes/educator-child/style.css?ver=ASDHFDASJFDKLS" type="text/css" media="all">
 </head>
 <body <?php body_class();?> itemscope itemtype="http://schema.org/WebPage">
@@ -38,3 +52,6 @@
 	        
             <div class="edgt-content" <?php educator_edge_content_elem_style_attr(); ?>>
                 <div class="edgt-content-inner">
+                <?php if ($current_page=="ACADEMICS") { ?>
+                  <div class="cds-picstrip"><img src="/wp-content/themes/educator-child/images/academics1350.jpg" /></div>
+                <?php } ?>
