@@ -25,7 +25,7 @@
 
     wp_head(); 
     ?>
-    <link rel="stylesheet" id="educator-edge-child-style-css" href="http://cornerstone2.marceliotstein.net/wp-content/themes/educator-child/style.css?ver=RUEIOWESJFDKLS" type="text/css" media="all">
+    <link rel="stylesheet" id="educator-edge-child-style-css" href="http://cornerstone2.marceliotstein.net/wp-content/themes/educator-child/style.css?ver=RUEURIEMEREMEOUREEOURLS" type="text/css" media="all">
 </head>
 <body <?php body_class();?> itemscope itemtype="http://schema.org/WebPage">
     <?php
