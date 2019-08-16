@@ -42,16 +42,25 @@
     }
   ?>
 
+  <div class="cds-sidebar-experience">
+    Learn about the Cornerstone Experience
+  </div>
+
+  <div class="cds-virtual-tour">
+    Virtual Tour
+  </div>
+
+  <div class="cds-parents-faq">
+    Parents FAQ
+  </div>
+
   <div class="cds-sidebar-pubs">
     <a href="/publications"><img src="/wp-content/themes/educator-child/images/cds-pubs-vertical.jpg" /></a>
   </div>
+
   <div class="cds-parent-quotes">
     <div class="cds-sidebar-feature">Quotes From Parents</div>
     <blockquote class="wp-block-quote cds-parent-quote"><p>After being in partial programs twice and then being on home instruction, finally there is a light at the end of the tunnel. I only wish we had found Cornerstone for our son a couple of years ago.<br /><i>Parent: Freehold, New Jersey</i></p></blockquote>
     <blockquote class="wp-block-quote cds-parent-quote"><p>My son has been able to establish a meaningful relationship with his teachers for the first time.<br /><i>Parent: Millburn, New Jersey</i></p></blockquote>
-  </div>
-
-  <div class="cds-parent-quotes">
-    <div class="cds-sidebar-feature">Cornerstone Experience, Parents FAQ, Publications</div>
   </div>
 </aside>

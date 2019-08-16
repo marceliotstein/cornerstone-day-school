@@ -484,6 +484,27 @@ blockquote:before {
   color: black;
 }
 
+.cds-sidebar-experience {
+  height: 100px;
+  color: black;
+  background-color: #bbbcbe;
+  margin-bottom: 24px;
+}
+
+.cds-virtual-tour {
+  height: 100px;
+  color: black;
+  background-color: #bbbcbe;
+  margin-bottom: 24px;
+}
+
+.cds-parents-faq {
+  height: 100px;
+  color: black;
+  background-color: #bbbcbe;
+  margin-bottom: 24px;
+}
+
 .cds-sidebar-feature,
 .feature-placeholder {
   background-color: #6a1242;
