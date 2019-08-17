@@ -12,6 +12,7 @@ Template: educator
 table, table tbody tr, table thead tr, tbody, tr, td {
   color: #000000;
   border-color: #000000;
+  padding: 0px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -161,15 +162,16 @@ blockquote:before {
   margin: 60px auto 50px auto;
 }
 
+/*
 .cds-front-exp-narrow #experience-cycle {
   width: 330px;
   height: 220px;
 }
+*/
 
 .cds-front-feature-table {
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 950px;
   margin: 0 auto;
 }
 
@@ -179,28 +181,23 @@ blockquote:before {
   border: none;
 }
 
-/*
 .cds-front-feature-table td {
-  border-width: 1px;
-  border-color: gray;
-  border-style: solid;
+  width: 50%;
 }
-*/
+
+.cds-td-half {
+  width: 50%;
+}
 
 .cds-front-feature-table td {
   vertical-align: top;
-  width: 450px;
   margin: 0px;
 }
 
 #experience-cycle,
 #experience-cycle2 {
-  background-size: cover;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #808184;
-  width: 450px;
-  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0 auto;
 }
 
@@ -324,27 +321,9 @@ blockquote:before {
   margin: 0px 0px 30px 0px;
 }
 
-.cds-blankline,
-.cds-questions,
-.cds-virtualtour,
-.cds-publications, 
-.cds-learnmore {
-  vertical-align: bottom;
-  text-align: center;
-  width: 450px;
-  padding: 0px;
-  font-family: "Abril Fatface";
-  font-weight: 500;
-  color: #000000;
-}
-
-.cds-front-feature-title-narrow {
-  text-align: center;
-  padding: 0px;
-  font-family: "Abril Fatface";
-  font-weight: 500;
-  color: #000000;
-}
+/***********************/
+/* front page features */
+/***********************/
 
 .cds-tour-box-narrow {
   background-color: #808184;
@@ -361,13 +340,14 @@ blockquote:before {
 }
 
 .cds-tour-box-wide {
-  width: 450px;
-  background-color: #bbbcb3;
-  color: white; 
-  border-width: 2px;
-  border-style: solid;
-  border-color: #bbbcbe;
-  text-align: center;
+  margin-top: 30px;
+}
+
+.cds-exp-box-wide img,
+.cds-tour-box-wide img,
+.cds-faq-box-wide img {
+  width: 100%;
+  height: auto;
 }
 
 .cds-tour-box-narrow a,
@@ -391,33 +371,6 @@ blockquote:before {
   margin: 0 auto 40px auto;
 }
 
-.cds-faq-box-wide {
-  background-color: #bbbcbe;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #808184;
-  text-align: center;
-  color: white; 
-  width: 450px;
-  height: 300px;  
-}
-
-.cds-faq-text-wide {
-  font-family: Tienne;
-  font-size: 50px;
-  margin-top: 136px;
-}
-
-.cds-pubs-title-narrow {
-  font-family: Tienne;
-  font-weight: bold;
-  color: #000000;
-  font-size: 30px;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 5px;
-}
-  
 .cds-pubs-box-narrow {
   border-width: 2px;
   border-style: solid;
@@ -428,31 +381,13 @@ blockquote:before {
   margin: 0 auto 40px auto;
 }
 
-.cds-front-exp-td,
-.cds-front-faq-td,
-.cds-front-tour-td,
-.cds-front-pubs-td {
-  width: 450px;
-}
-
-.cds-front-faq-tour-wide {
-  vertical-align: middle;
-  text-align: center;
-}
-
 .cds-pubs-box-wide {
-  vertical-align: middle;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
-  margin: 0px auto 40px auto;
-  width: 450px;
-  height: 300px;
-  background-color: #eee;
+  margin-top: 30px;
 }
 
-.cds-pubs-box-wide img {
-  height: 296px;
-}
+/***********/
+/* top bar */
+/***********/
 
 .edgt-top-bar {
   font-size: 20px;

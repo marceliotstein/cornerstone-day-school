@@ -59,4 +59,6 @@
 	        
             <div class="edgt-content" <?php educator_edge_content_elem_style_attr(); ?>>
               <div class="edgt-content-inner">
-                <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>
+                <?php if (!$current_page=="HOME") { ?>
+                  <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>
+                <?php } ?>
