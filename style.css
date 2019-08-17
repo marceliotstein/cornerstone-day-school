@@ -11,7 +11,6 @@ Template: educator
 
 table, table tbody tr, table thead tr, tbody, tr, td {
   color: #000000;
-  border-color: #000000;
   padding: 0px;
 }
 
@@ -170,39 +169,38 @@ blockquote:before {
 */
 
 .cds-front-feature-table {
-  margin-top: 30px;
+  border: none;
   margin-bottom: 30px;
   margin: 0 auto;
 }
 
-.cds-front-feature-table, 
-.cds-front-feature-table tr,
-.cds-front-feature-table td {
+.cds-front-feature-table tr {
   border: none;
 }
-
-.cds-front-feature-table td {
-  width: 50%;
-}
-
+  
 .cds-td-half {
-  width: 50%;
+  width: 48%;
 }
 
-.cds-front-feature-table td {
-  vertical-align: top;
-  margin: 0px;
+.cds-td-spacer {
+  width: 4%;
 }
+
+.cds-tr-spacer {
+  height: 32px;
+}
+
 
 #experience-cycle,
 #experience-cycle2 {
+  background-image: url("/wp-content/themes/educator-child/images/exp1front.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 
 .cds-front-feature-wide {
-  vertical-align: middle;
+  vertical-align: top;
   font-size: 1.6rem;
   color: #000000;
 }
@@ -340,12 +338,13 @@ blockquote:before {
 }
 
 .cds-tour-box-wide {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 
 .cds-exp-box-wide img,
 .cds-tour-box-wide img,
-.cds-faq-box-wide img {
+.cds-faq-box-wide img,
+.cds-pubs-box-wide img {
   width: 100%;
   height: auto;
 }
@@ -382,7 +381,7 @@ blockquote:before {
 }
 
 .cds-pubs-box-wide {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 
 /***********/
