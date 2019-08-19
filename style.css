@@ -9,6 +9,30 @@ Text Domain: educator
 Template: educator
 */
 
+.edgt-search-page-holder a {
+  font-size: 1.5rem;
+  color: #ba72a2;
+}
+
+.edgt-search-page-holder a:hover {
+  font-size: 1.5rem;
+  color: #eaa2c2;
+}
+  
+.edgt-search-page-holder .edgt-search-title {
+  display: none;
+}
+  
+.edgt-search-page-holder .edgt-search-page-form {
+  padding-top: 100px;
+}
+
+@media (min-width: 1024px) {
+  .edgt-search-page-holder .edgt-search-page-form {
+    padding-top: 80px;
+  }
+}
+
 table, table tbody tr, table thead tr, tbody, tr, td {
   color: #000000;
   padding: 0px;
