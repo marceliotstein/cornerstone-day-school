@@ -17,11 +17,13 @@
     $current_path = str_replace("http://cornerstone2.marceliotstein.net","",$current_path);
 
     $current_page = "NONE";
+    $include_picstrip = "YES";
     $header_img_narrow = "/wp-content/themes/educator-child/images/blank1200.jpg";
     $header_img_wide = "/wp-content/themes/educator-child/images/blank1350.jpg";
 
     if ($current_path=="") { 
       $current_page = "HOME";
+      $include_picstrip = "NO";
     } else if ($current_path=="therapeutic-services") { 
       $current_page = "THERAPEUTIC";
       $header_img_narrow = "/wp-content/themes/educator-child/images/therapeutic1200.jpg";
@@ -38,6 +40,10 @@
       $current_page = "TRANSITIONS";
       $header_img_narrow = "/wp-content/themes/educator-child/images/transitions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/transitions1350.jpg";
+    } else if ($current_path=="admissions") { 
+      $current_page = "ADMISSIONS";
+      $header_img_narrow = "/wp-content/themes/educator-child/images/admissions1200.jpg";
+      $header_img_wide = "/wp-content/themes/educator-child/images/admissions1350.jpg";
     } 
 
     wp_head(); 
@@ -86,6 +92,6 @@
 	        
             <div class="edgt-content" <?php educator_edge_content_elem_style_attr(); ?>>
               <div class="edgt-content-inner">
-                <?php if ($current_page!="HOME") { ?>
+                <?php if ($include_picstrip=="YES") { ?>
                   <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>
                 <?php } ?>

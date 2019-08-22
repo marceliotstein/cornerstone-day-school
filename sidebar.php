@@ -41,7 +41,7 @@
         <div class="cds-side-anchor">&#9679;&nbsp; <a href="#early-college-and-work-study-programs"></a>Early College and Work Study Programs</div>
       </div>
       <?php
-    } else if ($current_page=="SCHOOL AVOIDANCE") {
+    } else if ($current_page=="AVOIDANCE") {
       ?>
       <div class="cds-side-index">
         <div class="cds-side-title">School Avoidance</div>
@@ -52,6 +52,8 @@
       ?>
       <div class="cds-side-index">
         <div class="cds-side-title">Transitions</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#returning-to-district">Returning to District</a></div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#early-college-and-work-study-programs">Early College and Work Study Programs</a></div>
       </div>
       <?php
     } else if ($current_page=="ADMISSIONS") {
@@ -64,6 +66,7 @@
       ?>
       <div class="cds-side-index">
         <div class="cds-side-title">Who We Are</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#letter-from-our-staff">Letter From Our Staff</a></div>
       </div>
       <?php
     }
