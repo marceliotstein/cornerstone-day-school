@@ -9,6 +9,11 @@ Text Domain: educator
 Template: educator
 */
 
+blockquote p:before {
+  content: "";
+  display: none;
+}
+
 .edgt-search-page-holder a {
   font-size: 1.5rem;
   color: #ba72a2;
