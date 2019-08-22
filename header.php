@@ -30,10 +30,35 @@
       $current_page = "ACADEMICS";
       $header_img_narrow = "/wp-content/themes/educator-child/images/academics1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/academics1350.jpg";
+    } else if ($current_path=="school-avoidance") { 
+      $current_page = "AVOIDANCE";
+      $header_img_narrow = "/wp-content/themes/educator-child/images/school-avoidance1200.jpg";
+      $header_img_wide = "/wp-content/themes/educator-child/images/school-avoidance1350.jpg";
+    } else if ($current_path=="transitions") { 
+      $current_page = "TRANSITIONS";
+      $header_img_narrow = "/wp-content/themes/educator-child/images/transitions1200.jpg";
+      $header_img_wide = "/wp-content/themes/educator-child/images/transitions1350.jpg";
     } 
 
     wp_head(); 
     ?>
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" id="educator-edge-child-style-css" href="http://cornerstone2.marceliotstein.net/wp-content/themes/educator-child/style.css?ver=RUEEUIORERUIEOUREEOURLS" type="text/css" media="all">
 </head>
 <body <?php body_class();?> itemscope itemtype="http://schema.org/WebPage">
