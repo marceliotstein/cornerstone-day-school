@@ -455,8 +455,22 @@ a.anchor {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-style: normal;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-style: normal;
+}
+
+.cds-district-box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #6a1242;
+  padding: 5px;
+  width: 200px;
+  color: black;
 }
 
 .edgt-position-right-inner {

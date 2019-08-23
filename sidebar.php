@@ -60,6 +60,8 @@
       ?>
       <div class="cds-side-index">
         <div class="cds-side-title">Admissions</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#initial-visit">Initial Visit</a></div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#tuition-and-naples-funding">Tuition and Naples Funding</a></div>
       </div>
       <?php
     } else if ($current_page=="WHO") {
