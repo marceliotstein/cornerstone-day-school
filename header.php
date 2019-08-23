@@ -17,31 +17,41 @@
     $current_path = str_replace("http://cornerstone2.marceliotstein.net","",$current_path);
 
     $current_page = "NONE";
-    $include_picstrip = "YES";
+    $include_picstrip = "NO";
+    $picstrip_spacer_class = "lpg-no-picstrip-spacer";
     $header_img_narrow = "/wp-content/themes/educator-child/images/blank1200.jpg";
     $header_img_wide = "/wp-content/themes/educator-child/images/blank1350.jpg";
 
     if ($current_path=="") { 
       $current_page = "HOME";
-      $include_picstrip = "NO";
     } else if ($current_path=="therapeutic-services") { 
       $current_page = "THERAPEUTIC";
+      $include_picstrip = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/therapeutic1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/therapeutic1350.jpg";
     } else if ($current_path=="academics") { 
       $current_page = "ACADEMICS";
+      $include_picstrip = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/academics1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/academics1350.jpg";
     } else if ($current_path=="school-avoidance") { 
       $current_page = "AVOIDANCE";
+      $include_picstrip = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/school-avoidance1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/school-avoidance1350.jpg";
     } else if ($current_path=="transitions") { 
       $current_page = "TRANSITIONS";
+      $include_picstrip = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/transitions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/transitions1350.jpg";
     } else if ($current_path=="admissions") { 
       $current_page = "ADMISSIONS";
+      $include_picstrip = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/admissions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/admissions1350.jpg";
     } 
@@ -90,7 +100,7 @@
 	         */
 	        do_action('educator_edge_after_header_area'); ?>
 	        
-            <div class="edgt-content" <?php educator_edge_content_elem_style_attr(); ?>>
+            <div class="edgt-content <?php echo $picstrip-spacer ?>" <?php educator_edge_content_elem_style_attr(); ?>>
               <div class="edgt-content-inner">
                 <?php if ($include_picstrip=="YES") { ?>
                   <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>

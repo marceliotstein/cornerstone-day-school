@@ -472,11 +472,16 @@ h2 {
 }
 
 @media (min-width: 1024px) {
-  .page .edgt-content {
-    margin-top: -40px !important;
+  .page .lpg-picstrip-spacer {
+    margin-top: -55px;
+  }
+
+  .edgt-content {
+    padding-top: 15px;
   }
 
   .home .edgt-content {
+    padding-top: 0px;
     margin-top: -116px !important;
   }
 
