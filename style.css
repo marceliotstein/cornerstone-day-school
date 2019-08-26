@@ -457,11 +457,17 @@ a.anchor {
 h2 {
   font-size: 1.8rem;
   font-style: normal;
+  color: #6a1242;
 }
 
 h3 {
   font-size: 1.4rem;
   font-style: normal;
+  color: #6a1242;
+}
+
+.cds-full-width-content {
+  padding-top: 60px;
 }
 
 .cds-district-box {

@@ -17,7 +17,7 @@
       $current_page = "TRANSITIONS";
     } else if ($current_path=="admissions") {
       $current_page = "ADMISSIONS";
-    } else if ($current_path=="the-cornerstone-experience") {
+    } else if ($current_path=="cornerstone-experience") {
       $current_page = "EXPERIENCE";
     } else if ($current_path=="who-we-are") {
       $current_page = "WHO";
@@ -68,6 +68,7 @@
       ?>
       <div class="cds-side-index">
         <div class="cds-side-title">Who We Are</div>
+        <div class="cds-side-anchor">&#9679;&nbsp; <a href="#school-leadership">School Leadership</a></div>
         <div class="cds-side-anchor">&#9679;&nbsp; <a href="#letter-from-our-staff">Letter From Our Staff</a></div>
       </div>
       <?php
