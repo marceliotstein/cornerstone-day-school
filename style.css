@@ -455,19 +455,52 @@ a.anchor {
 }
 
 h2 {
+  font-family: "Tienne";
   font-size: 1.8rem;
   font-style: normal;
   color: #6a1242;
+  line-height: 1.4em;
 }
 
 h3 {
+  font-family: "Tienne";
   font-size: 1.4rem;
   font-style: normal;
   color: #6a1242;
 }
 
 .cds-full-width-content {
-  padding-top: 60px;
+  padding-top: 80px;
+}
+
+@media (min-width: 768px) {
+  .cds-full-width-content {
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cds-full-width-content {
+    padding-top: 40px;
+  }
+}
+
+table, table tbody tr, table thead tr, tbody, tr, td {
+  border-width: 0px;
+}
+
+table td.cds-exp-td-left {
+  padding-left: 2px;
+  padding-right: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+table td.cds-exp-td-right {
+  padding-left: 11px;
+  padding-right: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .cds-district-box {
