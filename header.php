@@ -54,6 +54,12 @@
       $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/admissions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/admissions1350.jpg";
+    } else if ($current_path=="parents-faq") { 
+      $current_page = "FAQ";
+      $include_picstrip = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
+      $header_img_narrow = "/wp-content/themes/educator-child/images/parentsfaq1200.jpg";
+      $header_img_wide = "/wp-content/themes/educator-child/images/parentsfaq1350.jpg";
     } 
 
     wp_head(); 
