@@ -54,6 +54,13 @@
       $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/admissions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/admissions1350.jpg";
+    } else if ($current_path=="cornerstone-experience") { 
+      $current_page = "EXPERIENCE";
+      $include_picstrip = "YES";
+      $include_picstrip2 = "YES";
+      $picstrip_spacer_class = "lpg-picstrip-spacer";
+      $header_img_wide = "/wp-content/themes/educator-child/images/experienceA1350.jpg";
+      $header_img2_wide = "/wp-content/themes/educator-child/images/experienceB1350.jpg";
     } else if ($current_path=="parents-faq") { 
       $current_page = "FAQ";
       $include_picstrip = "YES";
@@ -110,4 +117,7 @@
               <div class="edgt-content-inner">
                 <?php if ($include_picstrip=="YES") { ?>
                   <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>
+                <?php } ?>
+                <?php if ($include_picstrip2=="YES") { ?>
+                  <div class="cds-picstrip"><div class="cds-wideview"><img src="<?php echo $header_img2_wide ?>" /></div></div>
                 <?php } ?>

@@ -9,6 +9,10 @@ Text Domain: educator
 Template: educator
 */
 
+.cds-hide {
+  display: none !important;
+}
+
 blockquote p:before {
   content: "";
   display: none;

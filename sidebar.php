@@ -121,14 +121,10 @@
       <blockquote class="wp-block-quote cds-parent-quote"><p>Though I didn't know it at the time, CDS meant everything to me. Ultimately, I was the one who made the choice to turn my life around and go down a new path.<br /><i>Student, Fort Lee, NJ</i></p></blockquote>
       <blockquote class="wp-block-quote cds-parent-quote"><p>I want to personally thank you for all of your help with this very difficult family. Their son is in great need of treatment and I know both parents are comforted by the high level of care that he will receive at Cornerstone. For them I know that they see the 24/7 hot line as a godsend: Mom said that it's the first time that she can really sleep at night.<br /><i>Case Manager, Essex County, NJ</i></p></blockquote>
       <blockquote class="wp-block-quote cds-parent-quote"><p>Cornerstone meant a lot to me. It taught me how to cope. It has truly made me the person I am today, and I couldn't be more grateful.<br /><i>Student, Union, NJ</i></p></blockquote>
-    <?php } else if ($current_page=="EXPERIENCE") { ?>
-      <blockquote class="wp-block-quote cds-parent-quote"><p><br /><i></i></p></blockquote>
-      <blockquote class="wp-block-quote cds-parent-quote"><p><br /><i></i></p></blockquote>
-      <blockquote class="wp-block-quote cds-parent-quote"><p><br /><i></i></p></blockquote>
     <?php } else if ($current_page=="WHO") { ?>
-      <blockquote class="wp-block-quote cds-parent-quote"><p><br /><i></i></p></blockquote>
-      <blockquote class="wp-block-quote cds-parent-quote"><p><br /><i></i></p></blockquote>
-      <blockquote class="wp-block-quote cds-parent-quote"><p><br /><i></i></p></blockquote>
+      <blockquote class="wp-block-quote cds-parent-quote"><p>A huge thank you to all of you for all your hard work helping my son get better and transition to High School. We feel extraordinarily fortunate and truly know that Cornerstone helped him to survive and move on to be the best he can be (Of course the journey will continue!). We appreciate all of the concern, expertise and patience you have shown these last 18+ months. All best wishes to you.<br /><i>Parent, Cranford, NJ</i></p></blockquote>
+      <blockquote class="wp-block-quote cds-parent-quote"><p>The staff, the teachers and the administrative team are not only caring individuals but they have high standards of excellence for the students, as well.<br /><i>Parent, Springfield, NJ</i></p></blockquote>
+      <blockquote class="wp-block-quote cds-parent-quote"><p>Because of the open and honest relationship between the staff and us, they were able to help us navigate through this very tough passage our family was going through.<br /><i>Parent, Boonton, NJ</i></p></blockquote>
     <?php } ?>
   </div>
 </aside>
