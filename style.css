@@ -495,7 +495,7 @@ h3 {
 
 @media (min-width: 768px) {
   .cds-full-width-content {
-    padding-top: 60px;
+    padding-top: 67px;
   }
 }
 */
@@ -511,7 +511,13 @@ a.link-to-pdf img {
 
 @media (min-width: 1024px) {
   .cds-full-width-content {
-    padding-top: 60px;
+    padding-top: 67px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .edgt-title-wrapper .edgt-grid {
+    max-width: 800px;
   }
 }
 
