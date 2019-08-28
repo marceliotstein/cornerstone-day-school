@@ -13,6 +13,12 @@ Template: educator
   display: none !important;
 }
 
+/*
+#rev_slider_7_1_wrapper.fullwidthbanner-container {
+  margin-top: 150px !important;
+}
+*/
+
 blockquote p:before {
   content: "";
   display: none;
@@ -108,7 +114,17 @@ blockquote:before {
   padding-top: 0px; 
   margin-top: 60px; 
   text-align: center;
-  font-size: 1.2em;
+  font-size: 27px;
+  line-height: 1.0em;
+  font-weight: 600;
+  color: #6a1242;
+}
+
+.cds-block-quote p {
+  font-family: "Tienne";
+  font-style: italic;
+  font-size: 27px;
+  line-height: 1.0em;
   font-weight: 600;
   color: #6a1242;
 }
@@ -120,7 +136,6 @@ blockquote:before {
     padding-left: 12%;
     padding-right: 20px;
     text-align: right;
-    font-size: 1.6em;
   }
 }
 
@@ -473,6 +488,7 @@ h3 {
   color: #6a1242;
 }
 
+/*
 .cds-full-width-content {
   padding-top: 80px;
 }
@@ -482,10 +498,20 @@ h3 {
     padding-top: 60px;
   }
 }
+*/
+
+.cds-pubs-top-spacer {
+  height: 40px;
+}
+
+a.link-to-pdf img { 
+  /*height: 200px !important;*/
+  margin-right: 40px;
+}
 
 @media (min-width: 1024px) {
   .cds-full-width-content {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 }
 

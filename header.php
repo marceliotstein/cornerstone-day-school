@@ -17,8 +17,8 @@
     $current_path = str_replace("http://cornerstone2.marceliotstein.net","",$current_path);
 
     $current_page = "NONE";
+    $include_slider = "NO";
     $include_picstrip = "NO";
-    $picstrip_spacer_class = "lpg-no-picstrip-spacer";
     $header_img_narrow = "/wp-content/themes/educator-child/images/blank1200.jpg";
     $header_img_wide = "/wp-content/themes/educator-child/images/blank1350.jpg";
 
@@ -27,46 +27,36 @@
     } else if ($current_path=="therapeutic-services") { 
       $current_page = "THERAPEUTIC";
       $include_picstrip = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/therapeutic1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/therapeutic1350.jpg";
     } else if ($current_path=="academics") { 
       $current_page = "ACADEMICS";
       $include_picstrip = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/academics1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/academics1350.jpg";
     } else if ($current_path=="school-avoidance") { 
       $current_page = "AVOIDANCE";
       $include_picstrip = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/school-avoidance1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/school-avoidance1350.jpg";
     } else if ($current_path=="transitions") { 
       $current_page = "TRANSITIONS";
       $include_picstrip = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/transitions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/transitions1350.jpg";
     } else if ($current_path=="admissions") { 
       $current_page = "ADMISSIONS";
       $include_picstrip = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/admissions1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/admissions1350.jpg";
-    } else if ($current_path=="cornerstone-experience") { 
-      $current_page = "EXPERIENCE";
-      $include_picstrip = "YES";
-      $include_picstrip2 = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
-      $header_img_wide = "/wp-content/themes/educator-child/images/experienceA1350.jpg";
-      $header_img2_wide = "/wp-content/themes/educator-child/images/experienceB1350.jpg";
     } else if ($current_path=="parents-faq") { 
       $current_page = "FAQ";
       $include_picstrip = "YES";
-      $picstrip_spacer_class = "lpg-picstrip-spacer";
       $header_img_narrow = "/wp-content/themes/educator-child/images/parentsfaq1200.jpg";
       $header_img_wide = "/wp-content/themes/educator-child/images/parentsfaq1350.jpg";
+    } else if ($current_path=="cornerstone-experience") { 
+      $current_page = "EXPERIENCE";
+      $include_slider = "YES";
     } 
 
     wp_head(); 
@@ -115,9 +105,14 @@
 	        
             <div class="edgt-content <?php echo $picstrip-spacer ?>" <?php educator_edge_content_elem_style_attr(); ?>>
               <div class="edgt-content-inner">
+                <?php 
+                  if ($include_slider=="YES") { 
+                    echo do_shortcode('[rev_slider alias="experience700-slider"]');
+                  }
+                ?>
+
                 <?php if ($include_picstrip=="YES") { ?>
+j
                   <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>
-                <?php } ?>
-                <?php if ($include_picstrip2=="YES") { ?>
                   <div class="cds-picstrip"><div class="cds-wideview"><img src="<?php echo $header_img2_wide ?>" /></div></div>
                 <?php } ?>
