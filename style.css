@@ -108,7 +108,8 @@ blockquote:before {
   color: #bbbcbe;
 }
   
-.cds-block-quote {
+.cds-block-quote,
+.cds-block-quote-full-width {
   font-family: "Tienne";
   font-style: italic;
   padding-top: 0px; 
@@ -120,7 +121,8 @@ blockquote:before {
   color: #6a1242;
 }
 
-.cds-block-quote p {
+.cds-block-quote p,
+.cds-block-quote-full-width p {
   font-family: "Tienne";
   font-style: italic;
   font-size: 27px;
@@ -130,9 +132,13 @@ blockquote:before {
 }
 
 @media (min-width: 1024px) {
-  .cds-block-quote {
+  .cds-block-quote,
+  .cds-block-quote-full-width {
     padding-top: 0px; 
     margin-top: 0px; 
+  }
+
+  .cds-block-quote {
     padding-left: 12%;
     padding-right: 20px;
     text-align: right;
@@ -488,6 +494,12 @@ h3 {
   color: #6a1242;
 }
 
+h4 {
+  font-family: "Tienne";
+  font-style: normal;
+  color: #6a1242;
+}
+
 /*
 .cds-full-width-content {
   padding-top: 80px;
@@ -504,9 +516,36 @@ h3 {
   height: 40px;
 }
 
+/*
 a.link-to-pdf img { 
-  /*height: 200px !important;*/
   margin-right: 40px;
+}
+*/
+
+.cds-pdf-thumb {
+  width: 100%;
+  text-align: center;
+}
+
+.cds-pdf-thumb img {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+cds-pdf-thumb p {
+  margin-top: 3px;
+}
+
+@media (min-width: 1024px) {
+  .cds-pdf-thumb {
+     width: 230px;
+    float: left;
+  }
+
+  .cds-clear {
+    clear: both;
+  }
 }
 
 @media (min-width: 1024px) {

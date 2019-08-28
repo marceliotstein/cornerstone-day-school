@@ -88,7 +88,7 @@
   </div>
 
   <div class="cds-sidebar-virtual-tour">
-    <a href="/virtual-tour"><img src="/wp-content/themes/educator-child/images/cds-virtualtour-promo.jpg" /></a>
+    <img src="/wp-content/themes/educator-child/images/cds-virtualtour-comingsoon.jpg" />
   </div>
 
   <div class="cds-sidebar-parents-faq">
