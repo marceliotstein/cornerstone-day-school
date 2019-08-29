@@ -1,0 +1,150 @@
+/* 
+ * ADMISSIONS 
+ */
+
+<!-- wp:heading -->
+<blockquote class="cds-block-quote">The first step towards a productive, fulfilling and satisfying future</blockquote>
+<!-- /wp:heading -->
+
+<p>Cornerstone accepts students with significant psychiatric and emotional problems who have struggled in a public-school setting. Students who have  a primary diagnosis of oppositional defiant or conduct disorder, an active alcohol/drug abuse problem or are deemed dangerous to others cannot be enrolled at Cornerstone.</p>
+
+<p>If you feel that Cornerstone might be an appropriate placement for a child, please call Cornerstone at 908-543-0220 to learn more about our school and/or schedule an initial visit.</p>
+
+<p>Cornerstone Day School does not discriminate based on race, creed, gender, religion, national origin or sexual orientation.</p>
+
+<a class="anchor" name="initial-visit"></a>
+<h2>Initial Visit</h2>
+
+<p>Upon arrival, the prospective student, his/her parents/guardian and district representative meet with the top administrators in the school: Executive Director, Director of Clinical Services and School Principal. The purpose of the intake process is for all parties involved to get acquainted and determine if Cornerstone an appropriate placement for the student. The process includes a clinical assessment, interview of the family and student, an orientation of the clinical and academic services provided by CDS and a tour of the school. Once this process is complete, typically a decision is made determining student acceptance. If so desired, a prospective student is welcome to visit for a day prior to accepting the school’s offer.</p>
+
+<a class="anchor" name="tuition-and-naples-funding"></a>
+<h2>Tuition and Naples Funding</h2>
+
+<p>For nearly all students, tuition is paid by the student’s home school district, which is authorized through a section of the NJ educational law called the Naples Act (NJ18A:46-14) and covers all Cornerstone services, including transportation.</p>
+
+<p>This 30-year-old act broadens the scope of private schools where special needs students could be placed, thus allowing for a better fit between the child and the school and increasing the likelihood of a successful outcome.</p>
+
+<p>Placements under the <a href="http://pequotdigital.com/cstone/admissions/naples-funding/">Naples Act</a> have been used throughout New Jersey to fund students’ education since 1989 and are commonplace and done every year by many districts in New Jersey. Since Cornerstone opened in 2006, over 125 school districts in New Jersey have placed students through the use of the Naples Act.</p>
+
+<h3>FAQs about Naples Funding</h3>
+
+<p><b>Q: What exactly is the Naples Amendment and when should it be used?</b></p>
+<p>A: The Naples Act, N.J.S.A. 18A:46-14, allows special education students to be placed in an accredited private school and requires that it not be specifically approved for the education of the disabled. The term “Naples Act” is derived from the name of the legislator who was instrumental in the passage of this amendment to N.J.S.A..6A:14-6.5 on August 9, 1989. A Naples placement may be utilized whenever the CST determines that the private accredited school is the most appropriate placement for the student. NJ.A.C. 6A:14- 6.5 (b) (3).<br /></p>
+<p><b>Q: What makes a private school eligible to accept Naples placement?</b></p>
+<p>A: As long as the school is accredited (e.g. Middle States) but not approved, it is eligible to be a Naples placement for disabled students (N.J.S.A. 18A:46-14).<br /></p>
+<p><b>Q: Do the districts need to spend more time completing the paperwork to send a student to Cornerstone than to an approved school?</b></p>
+<p>A: Not at all. The paperwork is extremely simple and Cornerstone prepares a complete package, including the short Naples application, for each placement making the work of the school professional even easier. Like all out-of-district placements, the paperwork needs approval from the District’s Board of Education as part of the routine placement process and non-discriminatory NJ.A.C.6A:14-6.5 (a) (7).<br /></p>
+<p><b>Q: Districts get reimbursement for special education placement by the state. Is the reimbursement different for approved schools vs. Naples placements?</b></p>
+<p>No, reimbursement to a school district by the State is exactly the same. The approval status of a private school has no bearing on the reimbursement received by the school district. State aid for placement is based on formulas established in the School Funding Reform Act, N.J.S.A. 18A:7F et seq., and the Individuals with Disabilities Education Act, 20 U.S.C. 1400 et seq., which do not consider the approval status of the private school placement.<br /></p>
+<p><b>Q: Is there any reason why a school district should be reluctant to use a Naples placement for a disabled student?</b></p>
+<p>A: No! In fact, the opposite is true; districts should use Naples because it was specifically designed to help CST’s have better choices to place disabled students. A reluctance to make such a placement limits the options for the CST and actually can make the district more vulnerable to legal action by disgruntled parents. Cornerstone Day School, with its Cornerstone Experience providing a complete education, treatment and school experience is a unique alternative for a difficult-to-place child.<br /></p>
+<p><b>Q: Are the education curriculum or the teaching staff credentials different in a Naples placement school such as Cornerstone from those in an approved school?</b></p>
+<p>A: Not at Cornerstone! The academic program at Cornerstone meets and surpasses all of the NJ core curriculum standards and the teaching staff are always both special education certified/eligible and highly qualified in the subject area in which they teach. Moreover, the teacher to student ratio at Cornerstone far surpasses state requirements, typically by at least 50%.</p>
+
+<h3>Cornerstone School Districts</h3>
+<p>Over 125 school districts have enrolled students at Cornerstone since we began. Below is a partial listing of these school districts.</p>
+
+<div class="cds-district-box">
+Alpine<br />
+Bayonne<br />
+Belleville<br />
+Bergenfield<br />
+Berkeley Heights<br />
+Bernards Township<br />
+Bloomfield<br />
+Bogota<br />
+Boonton<br />
+Bridgewater-Raritan<br />
+Butler<br />
+Cedar Grove<br />
+Chatham<br />
+Chester<br />
+Clifton<br />
+Clinton<br />
+Colts Neck<br />
+Cranford<br />
+Delaware Valley<br />
+Demarest<br />
+Denville<br />
+East Rutherford<br />
+Elizabeth<br />
+Elmwood Park<br />
+Fair Lawn<br />
+Fort Lee<br />
+Franklin Township<br />
+Freehold Twp.<br />
+Glen Ridge<br />
+Glen Rock<br />
+Hackensack<br />
+Hackettstown<br />
+Hanover Park<br />
+Harding Township<br />
+Harrison<br />
+Hasbrouck Heights<br />
+Hawthorne<br />
+High Point Regional<br />
+Highland Park<br />
+Hillsborough<br />
+Hunterdon Central Reg.<br />
+Irvington<br />
+Kinnelon<br />
+Lakewood<br />
+Lakeland Regional<br />
+Lincoln Park<br />
+Linden<br />
+Livingston<br />
+Lodi<br />
+Lyndhurst<br />
+Madison<br />
+Mahwah<br />
+Matawan-Aberdeen<br />
+Mendham<br />
+Metuchen<br />
+Midland Park<br />
+Millburn<br />
+Montclair<br />
+Montgomery Twp.<br />
+Montville<br />
+Morris<br />
+Morris Hills<br />
+Morris Knolls<br />
+Morris Plains<br />
+Morristown<br />
+Mount Arlington<br />
+Mount Olive<br />
+Mountain Lakes<br />
+Mountainside<br />
+Newark<br />
+New Milford<br />
+North Arlington<br />
+North Brunswick<br />
+N. Hunterdon-Voorhees<br />
+North Plainfield<br />
+NorthStar Academy<br />
+Northern Valley Reg.<br />
+Nutley<br />
+Old Bridge<br />
+Oradell<br />
+Paramus<br />
+Parsippany-Troy Hills<br />
+Pascack Valley<br />
+Passaic Valley Reg.<br />
+Paterson<br />
+Pequannock<br />
+Perth Amboy<br />
+Plainfield<br />
+Princeton<br />
+Ramsey<br />
+Randolph<br />
+Ridgewood<br />
+River Dell Reg. HS<br />
+Rockaway Twp.<br />
+Roselle<br />
+Roxbury<br />
+Rumson<br />
+Rutherford<br />
+Saddle Brook<br />
+Sayreville<br />
+</div>
+
+
