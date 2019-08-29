@@ -257,6 +257,11 @@ blockquote:before {
   width: 100%;
 }
 
+#experience-cycle, 
+#experience-cycle2 {
+  display: table-cell;
+}
+
 .cds-front-feature-wide {
   vertical-align: top;
   font-size: 1.6rem;
@@ -298,8 +303,8 @@ blockquote:before {
 
 .edgt-page-content-holder {
   font-size: 1.1em;
-  padding-left: 50px; 
-  padding-right: 50px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
 }
 
 @media (min-width: 1024px) {
@@ -525,6 +530,16 @@ h4 {
   height: 40px;
 }
 
+.cds-publications-page h2 {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .cds-publications-page h2 {
+    text-align: left;
+  }
+}
+
 .cds-pdf-thumb {
   width: 100%;
   text-align: center;
@@ -542,7 +557,8 @@ cds-pdf-thumb p {
 
 @media (min-width: 1024px) {
   .cds-pdf-thumb {
-     width: 230px;
+    text-align: center;
+    width: 230px;
     float: left;
   }
 
@@ -552,13 +568,21 @@ cds-pdf-thumb p {
 }
 
 @media (max-width: 680px) {
-  .cds-full-width-content {
+  .cds-publications-page {
+    padding-top: 57px;
+  }
+
+  .cds-experience-page {
     padding-top: 67px;
   }
 }
 
 @media (min-width: 1024px) {
-  .cds-full-width-content {
+  .cds-publications-page {
+    padding-top: 57px;
+  }
+
+  .cds-experience-page {
     padding-top: 67px;
   }
 }
@@ -624,12 +648,13 @@ table td.cds-exp-td-right {
 
 .cds-footer-title {
   font-family: "Abril Fatface", serif;
-  font-size: 2.5em;
+  font-size: 2em;
   color: white;
   padding-bottom: 12px;
 }
 
-.cds-footer {
+.cds-footer,
+.cds-footer p {
   color: white;
   text-align: center;
 }
@@ -639,6 +664,10 @@ table td.cds-exp-td-right {
 }
 
 @media (min-width: 1024px) {
+  .cds-footer-title {
+    font-size: 2.5em;
+   }
+
   .edgt-full-width { 
     padding: 0px 100px 0px 100px;
   }
@@ -646,5 +675,11 @@ table td.cds-exp-td-right {
   .cds-footer {
     margin-left: 200px;
     margin-right: 200px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body:not(.edgt-content-is-behind-header):not(.error404) .edgt-content {
+    margin-top: -30px !important;
   }
 }
