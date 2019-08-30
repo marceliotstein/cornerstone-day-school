@@ -100,7 +100,7 @@
   </div>
 
   <div class="cds-parent-quotes">
-    <div class="cds-sidebar-feature">Quotes From Parents</div>
+    <div class="cds-sidebar-feature"><div class="cds-sidebar-feature-small">Parents, Students and Educators</div>What They Say</div>
     <?php if ($current_page=="THERAPEUTIC") { ?>
       <blockquote class="wp-block-quote cds-parent-quote"><p>Therapy, school and the doc, under one roof, uniquely structured so my daughter can return to the “normal” routines of school, homework, socialization and living, never possible before.<i>Parent, Colts Neck, NJ</i></p></blockquote>
       <blockquote class="wp-block-quote cds-parent-quote"><p>Cornerstone is the third therapeutic school he has attended: I know it’s his last. Here he is gaining both self-confidence and management techniques so he can move forward on a strong foundation.<br /><i>Parent, Morristown, NJ</i></p></blockquote>

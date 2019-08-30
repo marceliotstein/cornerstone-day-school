@@ -236,10 +236,19 @@ blockquote:before {
 
 .cds-sidebar-feature {
   background-color: #6a1242;
+  padding: 20px 12px 30px 12px;
   color: #ffffff;
-  padding: 30px;
   font-family: "Abril Fatface";
   font-size: 2rem;
+  text-align: center;
+}
+
+.cds-sidebar-feature-small {
+  color: #ffffff;
+  font-family: "Tienne";
+  font-size: .8rem;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
@@ -515,7 +524,7 @@ h4 {
 .cds-district-td-narrow {
   text-align: left;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   padding: 5px;
 }
 
@@ -524,6 +533,10 @@ h4 {
   vertical-align: top;
   width: 33.3%;
   padding: 5px;
+}
+
+.cds-pubs-subtitle {
+  color: black;
 }
 
 .cds-pubs-top-spacer {
