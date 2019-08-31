@@ -13,8 +13,8 @@
     // determine current page
     global $wp;
     $current_url = home_url(add_query_arg(array(), $wp->request));
-    $current_path = str_replace("http://cornerstone2.marceliotstein.net/","",$current_url);
-    $current_path = str_replace("http://cornerstone2.marceliotstein.net","",$current_path);
+    $current_path = str_replace("https://cornerstonedayschool.com/","",$current_url);
+    $current_path = str_replace("https://cornerstonedayschool.com","",$current_path);
 
     $current_page = "NONE";
     $include_slider = "NO";
@@ -78,7 +78,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" id="educator-edge-child-style-css" href="http://cornerstone2.marceliotstein.net/wp-content/themes/educator-child/style.css?ver=RURFDFJFDMMDNFSNJKLFDS" type="text/css" media="all">
+    <link rel="stylesheet" id="educator-edge-child-style-css" href="https://cornerstonedayschool.com/wp-content/themes/educator-child/style.css?ver=RRELNDFJDlSEICXJKLS" type="text/css" media="all">
 </head>
 <body <?php body_class();?> itemscope itemtype="http://schema.org/WebPage">
     <?php

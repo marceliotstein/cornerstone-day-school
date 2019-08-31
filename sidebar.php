@@ -3,8 +3,8 @@
     // determine current page
     global $wp;
     $current_url = home_url(add_query_arg(array(), $wp->request));
-    $current_path = str_replace("http://cornerstone2.marceliotstein.net/","",$current_url);
-    $current_path = str_replace("http://cornerstone2.marceliotstein.net","",$current_path);
+    $current_path = str_replace("https://cornerstonedayschool.com","",$current_url);
+    $current_path = str_replace("https://cornerstonedayschool.com","",$current_path);
 
     $current_page = "HOME";
     if ($current_path=="therapeutic-services") { 
