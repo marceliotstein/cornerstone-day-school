@@ -1,13 +1,17 @@
 /*
 Theme Name: Educator Child
 Theme URI: http://educator.edge-themes.com
-Description: A child theme of Educator Theme
-Author: Edge Themes
-Author URI: http://themeforest.net/user/edge-themes
+Description: Custom child theme for Cornerstone Day School
+Author: Marc Eliot Stein
+Author URI: https://marceliotstein.com
 Version: 1.0.1
 Text Domain: educator
 Template: educator
 */
+
+.edgt-vertical-align-containers .edgt-position-right {
+  padding-right: 40px;
+}
 
 .cds-hide {
   display: none !important;
