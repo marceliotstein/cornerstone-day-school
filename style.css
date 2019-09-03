@@ -151,7 +151,7 @@ blockquote:before {
 
 @media (max-width: 480px) {
   .edgt-grid {
-    width: 430px;
+    width: 390px;
   }
 }
 
@@ -201,7 +201,7 @@ blockquote:before {
 .edgt-page-title {
   font-family: "Tienne", serif;
   font-weight: 100;
-  font-size: 3.0em;
+  font-size: 1.8em;
   color: #6a1242;
   background-color: #ffffff;
   padding: 18px 0px 18px 0px;
