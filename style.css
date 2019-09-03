@@ -9,6 +9,10 @@ Text Domain: educator
 Template: educator
 */
 
+.cds-no-pic-spacer {
+  margin-top: 30px;
+}
+
 .edgt-vertical-align-containers .edgt-position-right {
   padding-right: 40px;
 }
@@ -117,7 +121,8 @@ blockquote:before {
   font-family: "Tienne";
   font-style: italic;
   padding-top: 0px; 
-  margin-top: 60px; 
+  margin-top: 0px;
+  /*margin-top: 60px;*/ 
   text-align: center;
   font-size: 27px;
   line-height: 1.0em;
@@ -135,6 +140,19 @@ blockquote:before {
   color: #6a1242;
 }
 
+@media (max-width: 500px) {
+  .cds-block-quote,
+  .cds-block-quote-full-width {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+
+  .cds-block-quote p,
+  .cds-block-quote-full-width p {
+    font-size: 15px;
+  }
+}
+  
 @media (min-width: 1024px) {
   .cds-block-quote,
   .cds-block-quote-full-width {
@@ -201,7 +219,7 @@ blockquote:before {
 .edgt-page-title {
   font-family: "Tienne", serif;
   font-weight: 100;
-  font-size: 1.8em;
+  font-size: 3.0em;
   color: #6a1242;
   background-color: #ffffff;
   padding: 18px 0px 18px 0px;
@@ -210,6 +228,12 @@ blockquote:before {
   text-transform: uppercase;
 }
 
+@media (max-width: 500px) {
+  .edgt-page-title {
+    font-size: 2.5em;
+  }
+}
+  
 @media (min-width: 1024px) {
   .edgt-page-title {
     font-size: 3.5em;
@@ -308,6 +332,12 @@ blockquote:before {
   padding-top: 15px;
 }
 
+@media (max-width: 500px) {
+  .edgt-grid-row .edgt-page-content-holder.edgt-content-right {
+    padding-top: 0px;
+  }
+}
+
 @media (min-width: 1024px) {
   .edgt-grid-row .edgt-page-content-holder.edgt-content-right {
     padding-top: 27px;
@@ -393,6 +423,13 @@ blockquote:before {
   line-height: 1.1em;
   padding: 20px 30px 20px 30px;
   margin: 0px 0px 30px 0px;
+}
+
+@media (max-width: 500px) {
+  .cds-slogan-narrow {
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+  }
 }
 
 /***********************/
@@ -516,6 +553,16 @@ h4 {
   font-family: "Tienne";
   font-style: normal;
   color: #6a1242;
+}
+
+@media (max-width: 500px) {
+  h2 {
+   font-size: 1.3rem;
+  }
+ 
+  h3 {
+   font-size: 1.15rem;
+  }
 }
 
 .cds-district-box {
@@ -646,10 +693,6 @@ table td.cds-exp-td-right {
 }
 
 @media (min-width: 1024px) {
-  .page .lpg-picstrip-spacer {
-    margin-top: -55px;
-  }
-
   .edgt-content {
     padding-top: 15px;
   }
@@ -678,7 +721,7 @@ table td.cds-exp-td-right {
 
 .cds-footer-td-side {
   color: #ffffff;
-  width: 15%x;
+  width: 15%;
   text-align: center;
   vertical-align: middle;
 }
@@ -723,8 +766,10 @@ table td.cds-exp-td-right {
   }
 }
 
+/*
 @media only screen and (max-width: 1024px) {
   body:not(.edgt-content-is-behind-header):not(.error404) .edgt-content {
     margin-top: -30px !important;
   }
 }
+*/

@@ -21,6 +21,7 @@
     $include_picstrip = "NO";
     $header_img_narrow = "/wp-content/themes/educator-child/images/blank1200.jpg";
     $header_img_wide = "/wp-content/themes/educator-child/images/blank1350.jpg";
+    $spacer_class = "";
 
     if ($current_path=="") { 
       $current_page = "HOME";
@@ -57,7 +58,13 @@
     } else if ($current_path=="cornerstone-experience") { 
       $current_page = "EXPERIENCE";
       $include_slider = "YES";
-    } 
+    } else if ($current_path=="who-we-are") {
+      $current_page = "WHO";
+      $spacer_class = "cds-no-pic-spacer";
+    } else if ($current_path=="publications") {
+      $current_page = "PUBLICATIONS";
+      $spacer_class = "cds-no-pic-spacer";
+    }
 
     wp_head(); 
     ?>
@@ -78,7 +85,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" id="educator-edge-child-style-css" href="https://cornerstonedayschool.com/wp-content/themes/educator-child/style.css?ver=RUEVBNDMFBNDSHJSDLS" type="text/css" media="all">
+    <link rel="stylesheet" id="educator-edge-child-style-css" href="https://cornerstonedayschool.com/wp-content/themes/educator-child/style.css?ver=RUEBFDJFJDKBFBFBDDBSKJDLS" type="text/css" media="all">
 </head>
 <body <?php body_class();?> itemscope itemtype="http://schema.org/WebPage">
     <?php
@@ -103,7 +110,7 @@
 	         */
 	        do_action('educator_edge_after_header_area'); ?>
 	        
-            <div class="edgt-content <?php echo $picstrip-spacer ?>" <?php educator_edge_content_elem_style_attr(); ?>>
+            <div class="edgt-content <?php echo $spacer_class ?>" <?php educator_edge_content_elem_style_attr(); ?>>
               <div class="edgt-content-inner">
                 <?php 
                   if ($include_slider=="YES") { 
@@ -112,7 +119,6 @@
                 ?>
 
                 <?php if ($include_picstrip=="YES") { ?>
-j
                   <div class="cds-picstrip"><div class="cds-narrowview"><img src="<?php echo $header_img_narrow ?>" /></div><div class="cds-wideview"><img src="<?php echo $header_img_wide ?>" /></div></div>
                   <div class="cds-picstrip"><div class="cds-wideview"><img src="<?php echo $header_img2_wide ?>" /></div></div>
                 <?php } ?>
