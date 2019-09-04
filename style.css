@@ -9,6 +9,17 @@ Text Domain: educator
 Template: educator
 */
 
+@media (max-width: 400px) {
+  .cds-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ 
+  .edgt-vertical-align-containers .edgt-position-right {
+    padding-right: 40px;
+  }
+}
+
 .edgt-content .edgt-content-inner .edgt-container .edgt-container-inner {
   padding-top: 0px !important;
 }
@@ -17,19 +28,9 @@ Template: educator
   margin-top: 30px;
 }
 
-.edgt-vertical-align-containers .edgt-position-right {
-  padding-right: 40px;
-}
-
 .cds-hide {
   display: none !important;
 }
-
-/*
-#rev_slider_7_1_wrapper.fullwidthbanner-container {
-  margin-top: 150px !important;
-}
-*/
 
 blockquote p:before {
   content: "";
@@ -92,23 +93,12 @@ ul, li {
   max-height: 70px !important;
 }
 
-.edgt-sidebar {
- /* padding-top: 30px;*/
-}
-
-@media (min-width: 1024px) {
-  .edgt-sidebar {
-    /*padding-top: 27px;*/
-  }
-}
-  
 .edgt-menu-area {
   height: 80px !important;
 }
 
 .edgt-title-wrapper {
   height: 70px !important;
-  /*padding-top: 20px !important;*/
 }
 
 .edgt-title-holder {
@@ -326,22 +316,6 @@ blockquote:before {
 @media (min-width: 1024px) {
   .cds-side-index {
     display: block;
-  }
-}
-
-.edgt-grid-row .edgt-page-content-holder.edgt-content-right {
-  /*padding-top: 15px;*/
-}
-
-@media (max-width: 500px) {
-  .edgt-grid-row .edgt-page-content-holder.edgt-content-right {
-    /*padding-top: 0px;*/
-  }
-}
-
-@media (min-width: 1024px) {
-  .edgt-grid-row .edgt-page-content-holder.edgt-content-right {
-    /*padding-top: 27px;*/
   }
 }
 
@@ -637,26 +611,6 @@ cds-pdf-thumb p {
   }
 }
 
-@media (max-width: 680px) {
-  .cds-publications-page {
-    padding-top: 57px;
-  }
-
-  .cds-experience-page {
-    padding-top: 67px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cds-publications-page {
-    padding-top: 57px;
-  }
-
-  .cds-experience-page {
-    padding-top: 67px;
-  }
-}
-
 @media (min-width: 1200px) {
   .edgt-title-wrapper .edgt-grid {
     max-width: 800px;
@@ -726,7 +680,6 @@ table td.cds-exp-td-right {
 
 .cds-footer-td-side {
   color: #ffffff;
-  width: 15%;
   text-align: center;
   vertical-align: middle;
 }
@@ -770,11 +723,3 @@ table td.cds-exp-td-right {
     padding: 0px 100px 0px 100px;
   }
 }
-
-/*
-@media only screen and (max-width: 1024px) {
-  body:not(.edgt-content-is-behind-header):not(.error404) .edgt-content {
-    margin-top: -30px !important;
-  }
-}
-*/

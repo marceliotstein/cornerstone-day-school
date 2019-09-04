@@ -85,7 +85,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" id="educator-edge-child-style-css" href="https://cornerstonedayschool.com/wp-content/themes/educator-child/style.css?ver=RUEBFDJFJDKBFBFBDDBSKJDLS" type="text/css" media="all">
+    <link rel="stylesheet" id="educator-edge-child-style-css" href="https://cornerstonedayschool.com/wp-content/themes/educator-child/style.css?ver=RUERUEIKDSJFKDLCCBSBSJDLS" type="text/css" media="all">
 </head>
 <body <?php body_class();?> itemscope itemtype="http://schema.org/WebPage">
     <?php
