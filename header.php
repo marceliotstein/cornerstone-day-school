@@ -66,7 +66,10 @@
       $header_img_wide = "/wp-content/themes/educator-child/images/parentsfaq1350.jpg";
     } else if ($current_path=="cornerstone-experience") { 
       $current_page = "EXPERIENCE";
-      $include_slider = "YES";
+      $include_slider = "experience700-slider";
+    } else if ($current_path=="virtual-tour") { 
+      $current_page = "VIRTUALTOUR";
+      $include_slider = "virtualtour";
     } else if ($current_path=="who-we-are") {
       $current_page = "WHO";
       $spacer_class = "cds-no-pic-spacer";
@@ -122,8 +125,8 @@
             <div class="edgt-content <?php echo $spacer_class ?>" <?php educator_edge_content_elem_style_attr(); ?>>
               <div class="edgt-content-inner">
                 <?php 
-                  if ($include_slider=="YES") { 
-                    echo do_shortcode('[rev_slider alias="experience700-slider"]');
+                  if ($include_slider!="NO") { 
+                    echo do_shortcode('[rev_slider alias="' . $include_slider . '"]');
                   }
                 ?>
 

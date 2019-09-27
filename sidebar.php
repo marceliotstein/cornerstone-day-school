@@ -92,11 +92,11 @@
   ?>
 
   <div class="cds-sidebar-experience">
-    <a href="/cornerstone-experience"><div id="experience-cycle2"><img src="/wp-content/themes/educator-child/images/transparent600x400.gif" /></div></a>
+    <a href="/cornerstone-experience"><div id="experience-cycle2"><img src="/wp-content/themes/educator-child/images/transparent600x400.gif" /></a>
   </div>
 
   <div class="cds-sidebar-virtual-tour">
-    <img src="/wp-content/themes/educator-child/images/cds-virtualtour-comingsoon.jpg" />
+    <a href="/virtual-tour"><img src="/wp-content/uploads/2019/09/cds-virtualtour-promo.jpg" /></a>
   </div>
 
   <div class="cds-sidebar-parents-faq">
